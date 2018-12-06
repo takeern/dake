@@ -1,0 +1,27 @@
+{
+  "name": "dake-cli",
+  "version": "1.0.24",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dake": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takeern/dake.git"
+  },
+  "author": "takeern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takeern/dake/issues"
+  },
+  "homepage": "https://github.com/takeern/dake#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.0",
+    "shelljs": "^0.8.2"
+  }
+}

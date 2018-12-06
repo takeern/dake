@@ -64,4 +64,6 @@ typings/
 
 package-lock.json
 
+.gitignore
 
+.npmignore
