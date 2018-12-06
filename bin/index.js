@@ -51,7 +51,6 @@ inquirer.prompt(qustions).then(answers => {
                     host: 'localhost',
                     isTs: false,
                     outPutName: 'index.js',
-                    dirname: configPath,
                 };
 
                 await ulit.writeFile(configPath + '/baseConfig.json', ulit.parseJson(baseConfig));
