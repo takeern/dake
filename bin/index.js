@@ -52,7 +52,7 @@ inquirer.prompt(qustions).then(answers => {
                     isTs: false,
                     outPutName: 'index.js',
                 };
-
+                shell.exec('git remote remove origin');
                 await ulit.writeFile(configPath + '/baseConfig.json', ulit.parseJson(baseConfig));
                
                 
