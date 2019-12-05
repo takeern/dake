@@ -1,13 +1,13 @@
 {
   "name": "dake-cli",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "dake": "bin/index.js"
+    "dake": "./bin/index.js"
   },
   "repository": {
     "type": "git",
